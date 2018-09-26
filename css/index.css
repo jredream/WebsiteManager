@@ -1,0 +1,7 @@
+body {
+    width: 500px;    
+}
+.main-panel {
+    max-height: 500px;
+    overflow-y: auto;
+}

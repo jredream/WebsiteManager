@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="css/vant.index.css">
+    <link rel="stylesheet" href="css/weui.min.css"/>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+
+  <body>
+    <div id="app" class="container">     
+      <van-panel :title="title">
+        <div class="main-panel">
+          <router-view />
+        </div>
+        <div slot="header" style="display: flex;height:40px; line-height: 40px;">
+          <h3 style="display: inline-block; padding-left: 10px; text-align: left;">{{title}}</h3>
+          <span style="display: inline-block;flex:1;text-align: right;padding-right: 10px;">
+            <van-button size="small" v-if="routePath=='/group'" @click="goto('/')">返回</van-button>
+            <van-button size="small" v-if="routePath=='/'" @click="goto('/group')">设置</van-button>
+          </span>      
+        </div>
+      </van-panel> 
+
+    </div>
+    
+    
+    <script src="thirdparty/vue.min.js"></script>
+    <script src="thirdparty/vue-router.js"></script>
+    <script src="thirdparty/vant.min.js"></script>
+    <script src="thirdparty/dexie.js"></script>
+    <script src="thirdparty/Sortable.min.js"></script>
+    <script src="thirdparty/vuedraggable.min.js"></script>
+
+    <script src="js/dbService.js"></script>
+    <script src="js/ws-settings.js"></script>
+    <script src="js/ws-list.js"></script>
+    <script src="js/ws-main.js"></script>        
+  </body>
+</html>
