@@ -8,14 +8,14 @@
 * 网站地址顺序可拖住排序
 
 ## 使用技术
-* [Vue](https://vuejs.org/ =300x300)
+* [Vue](https://vuejs.org/)
 * [Vuex](https://vuex.vuejs.org/)
 * [vant](https://github.com/youzan/vant)
 * [dexie.js](http://dexie.org/)
 * [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable#readme)
 
 ## 截图
-![网站列表](screenshot/website-list.jpg "网站列表")
-![网站标签显示](screenshot/website-taglist.jpg "网站标签显示")
-![分组列表](screenshot/settings-list.jpg "分组列表")
-![分组管理](screenshot/settings-group.jpg "分组管理")
+<img src="./screenshot/website-list.jpg" width="500" hegiht="500" style="max-width:500px;" alt="网站列表" />
+<img src="./screenshot/website-taglist.jpg" width="500" hegiht="500" style="max-width:500px;" alt="网站标签显示" />
+<img src="./screenshot/settings-list.jpg" width="500" hegiht="500" style="max-width:500px;" alt="分组列表]" />
+<img src="./screenshot/settings-group.jpg" width="500" hegiht="500" style="max-width:500px;" alt="分组管理" />
