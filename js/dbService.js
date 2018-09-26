@@ -31,7 +31,7 @@ DBService = {
   // 网站分组管理
   createGroup: function(record) {
     return db.ws_group
-      .add({ title: record.title, listType: record.listType });
+      .add({ title: record.title, listType: record.listType, orderNum: new Date().getTime() });
   },
   updateGroup: function(record) {
     return db.ws_group
@@ -54,7 +54,8 @@ DBService = {
     return db.ws_list.add({
       title: record.title,
       url: record.url,
-      groupId: record.groupId
+      groupId: record.groupId,
+      orderNum: new Date().getTime()
     }).then(updated => {
       console.log("createWebSite success=" + updated);
       return updated;

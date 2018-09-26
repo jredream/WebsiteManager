@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "和缓后台地址管理",
-    "description": "后台地址太多了，不知道多少域名，先这样吧",
+    "name": "WebSiteManager",
+    "description": "后台地址太多了？页签太多了？试试网站分组管理吧！可分组可排序！",
     "version": "1.0",
     "browser_action": {
         "default_icon": "images/logo3.png",
