@@ -8,7 +8,7 @@
 * 网站地址顺序可拖住排序
 
 ## 使用技术
-* [Vue](https://vuejs.org/)
+* [Vue](https://vuejs.org/ =300x300)
 * [Vuex](https://vuex.vuejs.org/)
 * [vant](https://github.com/youzan/vant)
 * [dexie.js](http://dexie.org/)
